@@ -18,7 +18,7 @@ Enter choice(corresponding number):'''))
         menu()
         
     if choice1 in [1, 2]:
-        choice2 = int(input("\n-> What do you want to do next?\n1.Continue with main menu\n2.Exit application.\nEnter choice:"))
+        choice2 = int(input("\n-> What do you want to do next?\n1.Continue with main menu\n2.Exit application.\nEnter choice(corresponding number):"))
         if choice2 == 1:
             menu()
         elif choice2 == 2:
